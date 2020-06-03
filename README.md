@@ -25,4 +25,6 @@ Should show Login Page
 
 #curl -X GET -i http://localhost:8080/logout
 
- 
+#### #go run http-session.go 
+
+Go first to http://localhost:8080/home , without going first to http://localhost:8080/login you will receive "unauthorized message", to test logout session just go to http://localhost:8080/logout
